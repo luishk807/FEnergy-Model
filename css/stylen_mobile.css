@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background:url(../images/bk.jpg) no-repeat;
+	background-position:center top; 
+	background-color:#000;
+}
+html, body{
+	margin: 0; padding: 0;
+	height:100%;
+	background-color:#000;
+	font-family:'todayshop';
+	color:#FFF;
+	font-size:14pt;
+}
+#main_cont{
+	width:960px;
+	margin-right:auto;
+	margin-left:auto;
+}
+#staticbody{
+	background-image:url(../images/main_girl.jpg); height:800px; width:980px;
+}
+@font-face {
+   font-family: 'todayshop';
+   src: url(../fonts/todayshop.ttf);
+}
+.del {
+   font-family: 'todayshop';
+   /*font-size: 3.2em;*/
+}
+#divclear{
+	clear:both;
+}
+#flashm{
+	font-size:15pt; font-weight:bold; background-color:#F00;color:#FFF;;
+}
+.flashmlink{
+	color:#FFF; font-weight:bold; background-color:#F00;
+}
+.alink{
+	color:#FFF;
+	text-decoration:underline;
+}
+.white{
+	color:#FFF; font-weight:bold; font-size:13pt;
+}
+#wrap{
+	position:absolute; width:100%; top:600px; margin-right:auto; margin-left:auto;
+	/*left:5%;*/
+}
+/****modal css**/
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+}
+  
+#boxes .window {
+  position:absolute;
+  left:0;
+  top:50px;
+  width:440px;
+  height:200px;
+  display:none;
+  z-index:9999;
+  padding:20px;
+}
+
+#boxes #about {
+  width:576px; 
+  height:600px;
+  padding:10px;
+  /*background-color:#ffffff;*/
+}
+#boxes #contact {
+  width:576px; 
+  height:600px;
+  padding:10px;
+  /*background-color:#ffffff;*/
+}
+#boxes #event {
+  width:576px; 
+  height:600px;
+  padding:10px;
+  /*background-color:#ffffff;*/
+}
+#popimg{
+	position:absolute; left:330px;
+}
+#popbody{
+	background-image:url(../images/pop2.png); padding-left:30px;
+}
+#popbody_in{
+	width:270px; color:#FFF; height:300px; text-align:justify; overflow:auto; padding:2px;
+}
+#popfooter{
+	background-image:url(../images/pop3.png); width:576px; height:123px;
+}
+/***end of modal css****/
+
+/* Tiny Scrollbar */
+#scrollbar1 { width: 290px; margin: 20px 0 10px; }
+#scrollbar1 .viewport { width: 270px; height: 300px; overflow: hidden; position: relative; }
+#scrollbar1 .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0; color:#FFF;}
+#scrollbar1 .scrollbar{ background: transparent url(../images/scrollbar/bg-scrollbar-track-y.png) no-repeat 0 0; position: relative; background-position: 0 0; float: right; width: 15px; }
+#scrollbar1 .track { background: transparent url(../images/scrollbar/bg-scrollbar-trackend-y.png) no-repeat 0 100%; height: 100%; width:13px; position: relative; padding: 0 1px; }
+#scrollbar1 .thumb { background: transparent url(../images/scrollbar/bg-scrollbar-thumb-y.png) no-repeat 50% 100%; height: 20px; width: 25px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: -5px; }
+#scrollbar1 .thumb .end { background: transparent url(../images/scrollbar/bg-scrollbar-thumb-y.png) no-repeat 50% 0; overflow: hidden; height: 5px; width: 25px; }
+#scrollbar1 .disable { display: none; }

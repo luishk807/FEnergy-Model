@@ -1,0 +1,1 @@
+onload="preload('pop1.png,pop2.png,pop3.png,popabout.png,popevent.png,main_girl.jpg,btnabout_rol.png,btncontact_rol.png,btnevent_rol.png')"
